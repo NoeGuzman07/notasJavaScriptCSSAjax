@@ -1,0 +1,37 @@
+
+* W3 Schools: JavaScript Tutorial.
+
+* JavaScript JSON:
+
+- JSON, tambien llamados Objetos Notables de JavaScript, es un formato que permite enviar y almacenar informacion.
+
+- JSON se utiliza cuando la informacion se envia hacia un servidor desde una pagina o aplicacion web.
+
+- JSON es un formato ligero que permite intercambiar informacion.
+
+- JSON es independiente del lenguaje X.
+
+- JSONn es facil de entender.
+
+- Sintaxis de JSON donde se declara un Objeto de tipo Empleado:
+
+    {
+        "empleado":[
+            {"primerNombre":"John", "apellidoPaterno":"Doe"},
+            {"primerNombre":"Anna", "apellidoPaterno":"Smith"},
+            {"primerNombre":"Peter", "apellidoPaterno":"Jones"}
+        ]
+    }
+
+- NOTA: El formato JSON es casi identico al codigo para crear objetos de JavaScript.
+
+- NOTA: JavaScript puede facilmente convertir datos JSON a JavaScript puro o nativo.
+
+* REGLAS DE SINTAXIS DE JSON:
+
+    - Los datos están en pares nombre/valor.
+    - Los datos están separados por comas.
+    - Las llaves sujetan objetos.
+    - Los corchetes contienen matrices.
+
+- NOTA: Consultar Ejemplo27.html donde se crea un objeto de tipo empleado donde se imprime los datos (nombre y apellido) del empleado de la posicion 1.

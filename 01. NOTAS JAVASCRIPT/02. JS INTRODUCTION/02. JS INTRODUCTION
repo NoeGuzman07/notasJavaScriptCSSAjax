@@ -1,0 +1,23 @@
+
+* W3 Schools: JavaScript Tutorial.
+
+- Uno de los metodos mas utilizados en JavaScript es " getElementById() " (obtener elemento por ID), el cual, se define el id de un elemento y con este metodo se puede llamar a su contenido.
+
+- El siguiente ejemplo "encuentra" un elemento HTML (con id="demo"), y cambia el contenido del elemento (innerHTML) a "Hello JavaScript"
+
+- NOTA: Revisar el archivo Ejemplo2.html
+
+- NOTA: JavaScript tambien permite utilizar comillas dobles, consultar Ejemplo3.html
+
+- JavaScript permite cambiar el valor de los atributos (source - src) de una etiqueta HTML, por ejemplo "src <img>".
+
+- NOTA: Consultar codigo de Ejemplo4.html, el cual, muestra el encendio y apagado de un foco utilizando el metodo getElementById, donde se llama el encendio y apagado de un foco.
+
+* Cambio de estilo CSS con JavaScript:
+
+- JavaScript permite cambiar el comportamiento de contenido HTML y su estilo CSS, consultar Ejemplo5.HTML Este cambio se puede realizar tambien con el metodo getElementById,
+  pero agregando el metodo " style.fontSize='35px' ", por ejemplo, para cambiar el tamano un parrafo a un tamano de 35px.
+
+- JavaScript permite ocultar elementos, esto mendiante el metodo " style.display='none' ", consultar Ejemplo6.html
+
+- JavaScript permite tambien mostrar elementos HTML, esto mediante el metodo " style.display='block' ", consultar Ejemplo7.html

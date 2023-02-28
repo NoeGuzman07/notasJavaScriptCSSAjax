@@ -1,0 +1,19 @@
+
+* W3 Schools: JavaScript Tutorial.
+
+* JavaScript Comments:
+
+- Permite explicar las variales, funciones y elementos que se utilizan en las aplicaciones y paginas web
+
+- Ejemplo: //Este es un comentario
+
+- Ejemplo:
+
+/*
+The code below will change
+the heading with id = "myH"
+and the paragraph with id = "myP"
+in my web page:
+*/
+document.getElementById("myH").innerHTML = "My First Page";
+document.getElementById("myP").innerHTML = "My first paragraph.";

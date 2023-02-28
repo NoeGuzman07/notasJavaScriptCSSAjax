@@ -1,0 +1,29 @@
+
+* W3 Schools: JavaScript Tutorial
+
+- JavaScript es el lenguaje de programacion mas popular.
+
+- JavaScript es una lenguaje de programacion para el desarrollo web.
+
+- JavaScript es facil de aprender.
+
+- Ejemplo #1: Hacer clic en un boton para mostrar la fecha de hoy y la hora: Consultar el archivo Ejemplo1.html
+
+- Por que debemos estudiar JavaScript?
+  Porque JavaScript es uno de los 3 lenguajes que todo desarrollador web debe aprender.
+
+- Los 3 lenguajes de programacion son los siguientes:
+
+  1. HTML: Es el lenguaje que define el contenido de las paginas web.
+  2. CSS: Es el lenguaje que especifica el diseno de las paginas web.
+  3. JavaScript: El es el lenguaje que permite programar el comportamiento de las paginas web.
+
+- Ejemplo de declaracion de una variable con JavaScript:
+  
+  var nombre = "noe";
+
+- NOTA:
+
+    - No se tiene que descargar ningun archivo o driver para ejecutar JavaScript.
+    - JavaScript se ejecuta desde cualquier navegador.
+    - JavaScript es gratis.

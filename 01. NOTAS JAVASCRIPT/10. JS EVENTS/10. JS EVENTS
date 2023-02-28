@@ -1,0 +1,25 @@
+
+* W3 Schools: JavaScript Tutorial.
+
+* Eventos con JavaScript.
+
+- Los eventos son cosas "cosas" o "acciones" que ocurren dentro de elementos HTML.
+
+- Cuando se utiliza JavaScript en paginas HTML, JavaScript puede "reaccionar" a dichos eventos.
+
+- Basicamente un evento es una accion que puede realizar un usuario al interactuar con aplicaciones y paginas web.
+
+- Ejemplos de eventos:
+
+    - Cuando una pagina ha terminado de cargarse.
+    - Cuando ha cambiado los datos de un formulario.
+    - Cuando el usuario hace clic a un boton.
+
+- NOTA: Consultar Ejemplo25.html se ejecuta un evento dentro del boton llamado "onclick", el cual, contiene el metodo Date() donde se imprime la fecha y hora.
+
+- NOTA: Al utilizar eventos con JavaScript permiten realizar lo siguiente:
+
+    - Con los eventos permiten llamar funciones de JavaScript.
+    - Permite gestionar elementos HTML.
+
+- Ejemplo de un evento: <button onclick="alert('Hello')">Clic en el boton!</button>

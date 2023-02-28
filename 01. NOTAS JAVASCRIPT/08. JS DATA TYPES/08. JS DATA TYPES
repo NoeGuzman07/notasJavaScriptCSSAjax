@@ -1,0 +1,68 @@
+
+* W3 Schools: JavaScript Tutorial.
+
+* JavaScript Data Types:
+
+- En JavaScript existen 8 tipos de datos:
+
+    - String: Cadena de caracteres.
+    - Number: Numeros;
+    - Bigint: Numeros enteros grandes.
+    - Boolean: Estado de un elementos - Verdadero - Falso.
+    - Undefined: Elemento no definido.
+    - Null: Elemento vacio.
+    - Symbol: Simbolo.
+    - Object: Objeto.
+
+* Ademas, en JavaScript existen objetos de diferente tipo:
+
+    - An object: Un objeto.
+    - An Array: Un Arreglo de elementos.
+    - A date: Una fecha.
+
+* Ejemplo de los tipos de elementos que se utilizan en JavaScript:
+
+// Numeros:
+let length = 16;
+let weight = 7.5;
+
+// Strings:
+let color = "Yellow";
+let lastName = "Johnson";
+
+// Booleanos
+let x = true;
+let y = false;
+
+// Objetos:
+const person = {firstName:"John", lastName:"Doe"};
+
+// Array object (Arreglo de objetos):
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object (Objeto Fecha):
+const date = new Date("2022-03-25");
+
+- Ejercicio ejemplo:
+
+    let length = 16;                // Numero
+
+    let lastName = "Johnson";       //String
+
+    const x = {
+        firstName: "John",
+        lastName: "Doe"
+    };                              // Objeto
+
+- NOTA: Consultar Ejemplo23.html donde se muestra como se declaran los objetos con JavaScript.
+
+- Los objetos se puede declarar de forma lineal o bien se puede realizar saltos de linea, por ejemplo:
+
+    - const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+    - const person = {
+        firstName: "John",
+        lastName: "Doe",
+        age: 50,
+        eyeColor: "blue"
+      };

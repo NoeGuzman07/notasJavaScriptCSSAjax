@@ -1,0 +1,25 @@
+
+* W3 Schools: JavaScript Tutorial.
+
+* JavaScript Funciones:
+
+- Son un conjunto de bloques de codigo que estan disenados para realizar alguna tarea en particular dentro de las aplicaciones y paginas web.
+
+- Dichas tareas puedes ser llamadas cuando sean necesarias.
+
+- Ejemplo:
+
+    // Function to compute the product of p1 and p2
+    function myFunction(p1, p2) {
+        return p1 * p2;
+    }
+
+- NOTA: Consultar el archivo Ejemplo24.html, en cual, utiliza una funcion donde recibe dos parametros y retorna el resultado de la multiplicacion de dos elementos.
+
+- JAVASCRIPT FUNCTION SYNTAX:
+
+- La sintaxis correcta para definir una funcion en JavaScript se debe colocar lo siguiente:
+
+    function nombreFuncion(parametro1, parametro2, parametro3) {
+    // Codigo o instrucciones que se desean ejecutar
+    }

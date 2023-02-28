@@ -1,0 +1,11 @@
+
+* W3 Schools: JavaScript Tutorial.
+
+* JavaScript Booleans:
+
+- Los datos de tipo booleano, el cual, contiene dos valores: true or false.
+
+- Por ejemplo: SI/NO - ON/OFF - TRUE/FALSE
+
+- Consultar Ejemplo26.html, donde se ve un ejemplo de uso de la funcion Boolean() donde se pregunta si 10 es mayor que 9, y se muestra un resultado: true o false.
+

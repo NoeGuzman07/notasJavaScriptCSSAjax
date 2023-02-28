@@ -1,0 +1,59 @@
+
+* W3 Schools: JavaScript Tutorial.
+
+* JavaScript Output (Salida de JavaScript):
+
+- JavaScript formas o posibilidades de mostrar elementos con JavaScript:
+
+- Con JavaScript permite mostrar informacion de diferetes maneras:
+
+    - Escribir dentro de un elemento HTML se utiliza " .innerHTML "
+    - Escirbir dentro de una salida HTML se utiliza " document.write() "
+    - Esribir dentro de una caja de alerta se utiliza " window.alert() "
+    - Esribir dentro de la consola de un navegador se utiliza " console.log() "
+
+* USING innerHTML:
+
+- Para acceder a un elemento HTML podemos utilizar codigo JavaScript, el cual, colocamos el siguiente metodo " documento.getElementById(id) "
+
+- El atributo define el elemento HTML.
+
+- La propiedad define el contenido HTML, para ello se utiliza la siguiente intruccion: " id innerHTML "
+
+-  NOTA: Consultar Ejemplo12.html para comprender el uso de innerHTML.
+
+* USING DOCUMENT.WRITE()
+
+- Con fines de prueba es conveniente usar el metodo: document.write()
+
+- NOTA: Consultar Ejemplo13.html para comprender el metodo document.write()
+
+- O tambien se puede utiliza el metodo document.write() dentro de un boton y ejecutarse.
+
+- NOTA: Consultar Ejemplo14.html
+
+* USING WINDOW.ALERT()
+
+- Es un metodo que permite mostrar una caja con un mensaje dentro del navegador.
+
+- Consultar Ejemplo15.html, el cual, muestra una caja con el resultado de la suma de dos numeros.
+
+- Consultar Ejemplo16.html, donde unicamente se utiliza " alert(1 + 1) "
+
+* Consultar Using console.log()
+
+- Con fines de depuracion y pruebas en las paginas y aplicaciones web utilizar el metodo console.log() para imprimir mensajes la consola del navegador.
+
+- NOTA: Para ver el resultado hacer clic derecho del navegador, inspeccionar, consola.
+
+- Consultar Ejemplo17.html
+
+* JAVASCRIPT PRINT
+
+- Para imprimir contenido de las paginas web con JavaScript se debe utilizar el metodo window.print().
+
+- NOTA: JavaScript no tiene ningun objeto o metodo de impresion.
+
+- NOTA: Solo se utiliza para window.print() para imprimir el contenido de la ventana, mas no elementos en particular de las paginas o aplicaciones web.
+
+- Consultar Ejemplo18.html

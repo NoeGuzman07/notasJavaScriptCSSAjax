@@ -1,0 +1,63 @@
+
+* W3 Schools: JavaScript Tutorial.
+
+* JavaScript Statements (Intrucciones de JavaScript):
+
+- En toda programa de computadora debe contener instrucciones, las cuales, la computadora se encarga de ejecutar.
+
+- Un software desarrollado con JavaScript es practicamente una lista de instrucciones.
+
+- Consultar Ejemplo19.html, donde se ejecuta un conjunto de instrucciones donde se declaran atributos con valores numericos, se realiza la suma de numeros
+  y se imprime en pantalla. Todo esto con codigo JavaScript.
+
+- Las instrucciones de JavaScript estan compuestos por los siguientes elementos:
+
+  - Valores.
+  - Operadores.
+  - Expresiones.
+  - Palabras Clave.
+  - Comentarios.
+
+- Consultar Ejemplo20.html, el cual, contiene instrucciones donde se le dice al navegador que escriba una frase dentro de un elemento HTML con ID.
+
+* JAVASCRIPT WHITE SPACE:
+
+- Con JavaScript podemos ignorar multiples espacios, es decir, que podemos agregar espacios en blanco a los scripts para que sean mas presentables dentro de las paginas web.
+
+- Por ejemplo: let person = "Hege";
+               let person="Hege";
+
+- En JavaScript se utilizan los siguiente simbolos para realizar operaciones matematicas: ( = + - * / )
+
+- NOTA: Una buena practica es utilizar espacios de operadores en operaciones matematicas, por ejemplo:
+
+- let x = y + z;
+
+* JAVASCRIPT CODE BLOCKS:
+
+- Las Intrucciones de JavaScript pueden ser agrupadas in bloques de codigo dentro de corchetes {...}
+
+- El objetivo del uso de los bloques de codigo es definir un conjunto de sentencias, las cuales pueden ser ejecutadas.
+
+- Dichos bloques de codigo los podemos agrupar dentro de funciones de JavaScript, por ejemplo:
+
+- function myFunction() {
+    document.getElementById("demo1").innerHTML = "Hello Dolly!";
+    document.getElementById("demo2").innerHTML = "How are you?";
+  }
+
+- NOTA: Consultar Ejemplo21.html para conocer como se trabaja las funciones con JavaScript
+
+* PALABRAS CLAVE DE JAVASCRIPT:
+
+- Son palabras que nos ayudan a identificar acciones que podemos realizar dentro de las paginas web, estas son:
+
+  - var: variable
+  - let: variable de bloque.
+  - const: constante.
+  - if: condicion.
+  - switch: Permite generar un conjunto de instrucciones bajo una condicion.
+  - for: Permite ejecutar ciclos
+  - function: funcion.
+  - return: retorno de elementos.
+  - try: Ayuda a implementar acciones en caso de que surgan errores en las paginas y aplicaciones web.

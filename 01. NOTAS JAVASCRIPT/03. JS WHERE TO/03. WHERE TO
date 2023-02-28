@@ -1,0 +1,38 @@
+
+* W3 Schools: JavaScript Tutorial.
+
+* The <script> Tag:
+
+- Tambien llamada etiqueta script, es codigo de JavaScript que se inserta dentro de las etiquetas <> </>: <script> </script>
+
+- Consultar Ejemplo8.html donde se imprimer un mensaje HTML utilizando Script para mostrar un mensaje donde ademas se utiliza el metodo " innerHTML ".
+
+* FUNCIONES Y EVENTOS CON JAVASCRIPT:
+
+- JavaScript permite generar bloques de codigo, el cual, pueden ser ejecutados al "llamarlos" a traves de una funcion (function).
+
+- Por ejemplo una FUNCION pueden ser llamados cuando ocurre un EVENTO, por ejemplo, cuando el usuario hace clic a un boton.
+
+* JAVASCRIPT EN <HEAD> O EN <BODY>:
+
+- Tu puede cualquier numero de scripts en un documento HTML, ya sea en la cabecera o en el cuerpo de una pagina o aplicacion web, Revisar Ejemplo8.html
+
+* JAVASCRIPT EN <HEAD>:
+
+- En las paginas web podemos colocar codigo JavaScript, en este ejemplo Ejemplo9.html, podemos ver codigo JavaScript dentro de la cabecera o <head> donde se declara una funcion llamada "myFunction()",
+  la cual, contiene un mensaje, y dentro del <Body> se encuentra un boton con la funcion " onClick = "myFunction()" " donde se llama a la funcion creada en <head> e imprime su contenido.
+
+- NOTA: Revisar Ejemplo9.html
+
+* JAVASCRIPT EN <BODY>:
+
+- Tambien con JavaScript podemos colocar scripts dentro del body, por ejemplo, dentro de Ejemplo10.html, un script donde se encuentre una funcion que permite mostrar un mensaje en
+  pantalla y por aparte colocar un boton que llame a la funcion definida en el script:
+
+- NOTA: Consultar Ejemplo10.html
+
+* JAVASCRIPT EXTERNOS:
+
+- Tambien, el codigo JavaScript puede ser utilizado en archivos externos, los cuales, para ser utilizados se debe utilizar la sentencia " <script src="myScript.js"></script> "
+
+- Consultar Ejemplo11.html y mySCript.js

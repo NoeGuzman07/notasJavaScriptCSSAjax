@@ -1,0 +1,25 @@
+
+* W3 Schools: JavaScript Tutorial.
+
+* JavaScript SyntaX (Sintaxis de JavaScript):
+
+- La Sintaxis de JavaScript es un conjunto de reglas que se consideran al momento de desarrollar una aplicacion o pagina web.
+
+- Ejemplo, declaracion de variables, definir sus valores y realizar acciones con ellos para obtener el resultados esperado.
+
+- Ejemplo #1:
+
+    // Como se crean las variables con JavaScript:
+        var x;
+        let y;
+
+    // Como se utiliza las variables, en este caso para realizar una operacion matematica:
+        x = 5;
+        y = 6;
+        let z = x + y;
+
+* Numeros decimales.
+
+- En JavaScript los numeros se pueden escribir como numeros enteros o con decimales.
+
+- NOTA: Consultar ejemplo Ejemplo22.html
