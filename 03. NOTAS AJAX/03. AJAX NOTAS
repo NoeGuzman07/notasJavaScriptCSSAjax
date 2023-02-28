@@ -1,0 +1,121 @@
+
+* W3 Schools: Ajax Tutorial
+
+* Que es Ajax?
+
+- Es un motor o interprete de JavaScript nos ayuda a crear aplicaciones asincronas, es decir, que se ejecutan del lado del cliente (vista),
+  pero mantiene una comunicacion con el servidor en segundo plano.
+
+- Con Ajax podemos realizar lo siguiente:
+
+    - Leer datos del servidor.
+    - Actualizar una pagina web sin volver a cargarla.
+    - Enviar informacion al sevidor en segundo plano.
+
+- NOTA: Consultar EjercicioAjax1.html, en el cual contiene un boton y cuenta con un evento "onClick" y dentro de este cuenta con una funcion llamada "loadDoc()", la cual,
+        contiene una funcion getElementById junto con innerHTML y mediante el metodo GET hace la consulta del contenido del archivo " ajax_info.txt "
+
+- NOTA: Todo esto utilizando un script dentro de la pagina web.
+
+- NOTA: Consultar el archivo ajax_info1.txt, la cual, contiene informacion que se mostrara cuando se haga clic en el boton.
+
+- Que significa AJAX?
+
+- AJAX = Asynchronous JavaScript And XML (JavaScript Asincrono y XML).
+
+- NOTA: AJAX no es un lenguaje de programacion.
+
+- AJAX solamente utiliza una combinacion de lo siguiente:
+
+    - JavaScript y HTML para mostrar la informacion al usuario.
+    - XMLHttpRequest, el cual, es un objeto de JavaScript que permite realizar peticiones HTTP y HTTPS.
+
+- Uno de los beneficios que tiene AJAX es que permite actualizar las paginas web de forma asincrona, es decir que no es necesario volver a cargar la pagina completamente al momento de actualizar la informacion.
+
+- Otro beneficio es que AJAX permite realizar el intercambio de datos con el servidor en segundo plano, esto con el fin de avisarle al usuario final de que debe enviar la informacion correcta hacia el servidor.
+
+* COMO FUNCIONA AJAX?
+
+    1. EN EL NAVEGADOR:
+
+        - Ocurre un evento, por ejemplo enviamos informacion desde un formulario a traves de un boton.
+        - Se debe crear un objeto de tipo " XMLHttpRequest ".
+        - Se envia la peticion " HttpRequest ".
+    
+    2. La peticion se envia a traves de internet.
+
+    3. EN EL SERVIDOR:
+
+        - Se procesa la peticion HttpRequest.
+        - Se crear una respuesta (response).
+        - Se envia la informacion de vuelta al navegador.
+
+    4. La respuesta se envia hacia el navegador a traves de internet.
+
+    5. EN EL NAVEGADOR:
+
+        - Se procesa la informacion que se recibe desde el servidor, esto utilizando JavaScript.
+        - Se acutaliza el contenido de la pagina mostrando el resultado para el usuario final.
+
+* AJAX - OBJETO " XMLHttpRequest ".
+
+- Es un elemento fundamental para Ajax ya que nos ayuda a crear objetos y realizar peticiones HTTP al servidor.
+
+- Este objeto se utiliza para realizar intercambio de informacion con el servidor en segundo plano, es decir que no es necesario
+  volver a cargar la pagina completamente para actualizar la informacion.
+
+- NOTA: Todos los navegador permiten utilizar objetos " XMLHttpRequest ".
+
+- Para crear un objeto de tipo " XMLHttpRequest " se debe utilzar la siguiente sintaxis: variable = new XMLHttpRequest();
+
+* FUNCION DE DEVOLUCION DE LLAMADA:
+
+- Es una funcion que pasa como parametro dentro de otra funcion, la cual, debe contener codigo que se ejecutara cuando la respuesta este lista.
+
+xttp.onload = function() {
+    //Lo que debe hacer cuando la respuesta esta lista
+}
+
+* ENVIAR UNA SOLICITUD:
+
+- Para enviar una solicitud al servidor se puede utilizar los metodos " open() " y " send() " del objeto " XMLHttpRequest ", por ejemplo:
+
+    xttp.open("GET", ajax_info.txt);
+    xttp.send();
+
+- NOTA: Consultar el archivo EjercicioAjax2.html para comprender sobre como se crea un objeto XMLHttpRequest, como se define la funcion de 
+        devolucion de llamada y el envio de la peticion HTTP.
+
+- NOTA: Consultar el archivo " ajax_info.txt " donde se encuentra que se desea consultar dentro del archivo EjercicioAjax2.html
+
+* ACCESO ENTRE DOMINIOS CON AJAX:
+
+- En las aplicaciones y paginas web la informacion que se desee cargar archivos XML deben estar almacenadas dentro del mismo servidor y no permite la carga de informacion a traves de dominios externos.
+
+* METODOS QUE SE PUEDEN UTILIZAR CON " XMLHttpRequest ":
+
+    - new XMLHttpRequest() = Crea un objeto de tipo XMLHttpRequest.
+
+    - abort() = Cancela la peticion actual.
+    
+    - getAllRespondeHeaders() = Retorna la informacion de encabezado.
+    
+    - getResponseHeader() = Retorna informacion especifica de encabezado.
+    
+    - open(method, url, async, user, psw) = Especifica la respuesta.
+        
+        --> method: La respuesta puede ser de tipo GET o POST.
+        
+        --> url: La localizacion o direccion donde se encuentra el archivo.
+
+        --> async: true (asincrono) o false (sincrono).
+
+        --> user: Nombre de usuario opcional.
+
+        --> psw: Contrasena opcional.
+
+    - send(): Envia la peticion al servidor utilizando petciones GET.
+
+    - send(string): Enviar la peticion al servidor utilizando petciones POST.
+
+    - setRequestHeader() = Agregar una par de etiquetas / valores a la cabecera para ser enviado.

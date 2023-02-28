@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Objeto "XMLHttpRequest"</h2>
+
+    <div id="demo">
+        <p>Con AJAX podemos cambiar la informacion.</p>
+        <button type="button" onclick="loadDoc()">Cambiar contenido</button>
+    </div>
+
+    <script>
+        function loadDoc() {
+            
+            // Create an XMLHttpRequest object
+            const xhttp = new XMLHttpRequest();
+
+            // Define a callback function
+            xhttp.onload = function () {
+                document.getElementById("demo").innerHTML = this.responseText;
+            }
+            
+            // Send a request
+            xhttp.open("GET", "ajax_info2.txt");
+            xhttp.send();
+        }
+    </script>
+
+</body>
+
+</html>
