@@ -1,0 +1,159 @@
+
+* W3 Schools: CSS Tutorial
+
+* Que es CSS?
+
+- Es un lenguaje que permite disenas las paginas HTML, es decir, que ayuda a dar un estilo a las paginas, esto mediante colores, tamanos y tipos de letra, etc.
+
+- Ejemplo: Consultar EjercicioCSS1.html para mostrar color, tamanos de letras de una pagina web.
+
+- NOTA: Se puede utilizar CSS dentro de una archivo HTML, colocar <style> "Estilo CSS" </style>
+
+- En otras palabras, CSS es un lenguaje que se utiliza para dar un estilo a las paginas web.
+
+* Que significa CSS?
+
+- Hojas de estilo en cascada
+
+- Uno de sus beneficios es que ayuda a dar un estilo a mas de una pagina web.
+
+- Para no tener mucho codigo de CSS dentro de un archivo HTML, podemos utilizar archivos externos CSS.
+
+* SINTAXIS CSS:
+
+- La sintaxis de CSS se debe acomodar de la siguiente manera:
+
+    -   H1           { color   :   blue;        font-size   :   12px;     }
+      Selector       propiedad     valor        propiedad       valor
+
+- NOTA: Consultar EjemploCSS2.html, donde se utilza estilo CSS en los parrafos <p></p> donde se muestran de color rojo.
+
+- NOTA: Dentro de EjercicioCSS2.html, nos dice que " p " es el elemento HTML, " color " es la propiedad y " red " es el valor que se le da a la propiedad.
+
+- NOTA: La propiedad " text-align " es una propiedad y " center " es el valor.
+
+* CSS CON ID:
+
+- Con CSS se puede utilizar id para identificar a que elemento HTML en especifico se le dara un estilo dentro de la pagina.
+
+- NOTA: Consultar EjemploCSS3.html, donde se utiliza un parrafo <p> con id " para1 ", y en el estilo se define un estilo para ese elemento en particular.
+
+* CSS SELECTOR DE CLASES:
+
+- Con CSS podemos darle un estilo a un grupo de elementos de una pagina HTML con base a un atributo o clase en especifico.
+
+- Para ello se debe escribir un punto (.), despues se coloca el nombre de la clase.
+
+- NOTA: Consultar EjemploCSS4.html donde se muestra el estilo de la clase " center " donde se coloca la informacion al centro de la pagina con " text-align: center " y se muestra de color rojo.
+
+* SELECTOR UNIVERSAL DE CSS:
+
+- El selector universal de CSS se refiere a que se le dara un estilo a todo los elementos de una pagina HTML y esta se define con un ( * ).
+
+- NOTA: Consultar EjercicioCSS5.html donde se utiliza un selector universal en la pagina.
+
+* SELECTOR DE GRUPOS CSS:
+
+- El selector de grupo CSS permite seleccionar elementos HTML con el mismo estilo.
+
+- NOTA: Consultar EjemploCSS6.html donde se le da un solo estilo a 3 elementos HTML, como <H!>, <H2> y <p>
+
+* ARCHIVO CSS EXTERNO:
+
+- Como se sabe, dentro de los arhivos HTML podemos colocar codigo CSS directamente, sin embargo, una forma mas comoda de tener organizado los codigos de las paginas web
+  es que se puede tener un archivo CSS externo donde podemos colocar un estilo a las paginas HTML y basta con colocar una instruccion dentro del HTML para llamar al archivo CSS.
+
+- NOTA: Consultar EjemploCSS7.html y el archivo mystyle7.css para comprender que se puede tener un archivo externo CSS donde se le da el estilo y diseno a las paginas HTML.
+
+* COMENTARIOS EN CSS:
+
+- Para conocer lo que estamos realizando en los arhivos CSS podemos agregar comentarios, los cuales se debe colocar de la siguiente manera: /* Este es un comentario */
+
+* COLORES DE FONDO CON CSS (BACKGROUND COLOR):
+
+- Se refiere al color de fondo que podemos colocar tanto a la paginas completa o elementos en particular de las paginas web.
+
+- NOTA: Consultar EjercicioCSS8.html donde se utiliza la instruccion background-color para pintar los parrafos que se enncuentran dento de la pagina web.
+
+* CSS TEXT COLOR:
+
+- Con CSS tambien podemos pintar las letras de las paginas web, esto se debe hacer dentro de elemento, ya sea <p> o <H1>, donde se coloca " style = "color:Rojo" "
+
+- NOTA: Consultar EjercicioCSS9.html para observar el texto que se encuentran coloreados.
+
+* CSS BORDER COLOR:
+
+- Con CSS podemos definir colores en los limites de cada elemento dentro de una pagina web.
+
+- Esto se puede realizar dentro de " style = border: Tamano X en px solid Color"
+
+- NOTA: Consultar EjemploCSS10.html donde se muestra el tamano y color especifico de un grupo de elementos de una pagina HTML.
+
+* CSS COLOR VALUES:
+
+- Los colores que se utilizan dentro de CSS se pueden utilizar valores de tipo RGB, Hexadecimal, RGBA, entre otros.
+
+- Tambien en los colores se puede aplicar transparencia de elementos.
+
+- NOTA: Consultar EjercicioCSS11.html donde se muestra la aplicacion de los diferentes tipos de valores de colores que se pueden aplicar dentro las paginas web.
+
+* CSS COLORES EN HEXADECIMAL:
+
+- Por lo regular, en las paginas web se utiliza en los colores valores en Hexadecimal.
+
+- Para obtener un color en particular podemos utilizar paginas que nos proporcionan los valores ya en Hexadecimal.
+
+- Ejemplo de un color en Hexadecimal: #FF0000 (rojo)
+
+- NOTA: Consultar EjercicioCSS12.html donde se muestran un conjuntos de elementos HTML, los cuales, tienen un color con valor Hexadecimal.
+
+* CSS MARGINS:
+
+- Los margenes se utilizan para crear espacios en los elementos de una pagina web, la instruccion que se utiliza es " margin "
+
+- En los margenes se pueden colocar: Arriba, Abajo, Izquierda y Derecha.
+
+- Estas son las diferentes tipos de margenes:
+
+    - margin-tip
+    - margin-right
+    - margin-bottom
+    - margin-left
+
+- NOTA: Para definir valores en los margenes es recomendable utilizar valores en px.
+
+- NOTA: Consultar EjercicioCSS13.html donde se muestra un cuadro de una pagina web, la cual, contiene color de fondo, margenes y border o limite definido.
+
+* CSS FONTS:
+
+- Tambien llamado Fuentes de CSS, se refieren al estilo o tipo de letra que puede tener los textos en las paginas web.
+
+- RECOMENDACION: Elegir un tipo de letra que sea atractivo para el usuario final, con el fin de ofrecer una claridad en la informacion en la pagina.
+
+- En CSS existen 5 estilos de fuentes de letra, las cuales son:
+
+    1. Serif
+    2. Sans-Serif, es una de las mas utilizadas en las aplicaciones y paginas web.
+    3. Monospace
+    4. Cursive
+    5. Fantasy
+
+- Dentro la fuente Sans-Serif, se encuentrnan diferentes tipos de letras, como son:
+
+    - Arial.
+    - Verdana.
+    - Helvetica.
+
+-  NOTA: Consultar EjemploCSS14.html donde se utiliza la instruccion " font-family " donde en cada parrafo <p> se muestran diferentes tipos de fuentes y estilos de letra.
+
+* CSS ICONS
+
+- En las paginas web podemos colocar iconos, las cuales son facilmente de colocar, esto mediante el uso de una biblioteca de iconos.
+
+- La forma mas sencilla para agregar iconos es colocar la direccion de una biblioteca de iconos, como " Font Awesome ", esto mediante un script en <head> de la pagina.
+
+- Para colocar un icono en un elemento HTML en particular debemos colocar <i></i>
+
+- NOTA: Consultar EjercicioCSS15.html donde se utiliza la biblioteca de iconos " Font Awesome " y se muestran un conjunto de iconos dentro de la pagina y de diferentes tamanos.
+
+- NOTA: Tomando en cuenta que los tamanos se deben de definir mediante px.
