@@ -1,0 +1,255 @@
+
+* W3 Schools: JQuery
+
+* Que es JQuery?
+
+- JQuery es una libreria de JavaScript.
+
+- JQuery simplifica de forma importante o grande la programacion con JavaScript.
+
+- JQuery es muy facil de aprender.
+
+- El proposito de JQuery es hacer que sea sencillo de utilizar JavaScript en las paginas web.
+
+- NOTA: Para estudiar JQuery se debe contar con conocimiento en: HTML, CSS y JavaScript.
+
+- En otras palabras, JQuery es una biblioteca de JavaScript ligero, la cual nos dice "Escribe menos, haz mas".
+
+- JQuery lo que hace es que toma muchas tareas y metodos que requieren de muchas lineas de codigo JavaScript, pero luego las envuelve o coloca en metodos,
+  los cuales basta con hacer realizar una linea de codigo para realizar la llamada al metodo definido.
+
+- De hecho, con JQuery simplifica otros elementos de JavaScript, tales como AJAX y la manipulacion de DOM (Modelo de objeto de documento, o bien una
+  interfaz de programacion para documentos HTML y XML).
+
+- JQuery contienes las siguientes caracteristicas:
+
+    - Permite manipular elementos HTML / DOM.
+    - Permite manipular elementos CSS.
+    - Permite ejecutar metodos de eventos HTML.
+    - Permite realizar dentro de las aplicaciones y paginas web efectos y animaciones.
+    - Permite utilizar AJAX.
+    - Utilidades, etc.
+
+- Para utilizar JQuery se debe colocar el enlace de la libreria dentro de un script:
+
+        <head>
+
+            <script src="jquery-3.6.3.min.js"></script>
+
+        </head>
+
+* JQUERY SYNTAX:
+
+- Con JQuery permite seleccionar (query o consultas) de elementos HTML y realiza "acciones" en ellos.
+
+- La sintaxis de JavaScript esta hecho de tal forma que permite seleccionar elementos HTML y permite realizar alguna accion en los elementos.HTML
+
+- La sintaxis básica de JQuery es: $(selector). acción()
+
+    - Un signo $ para definir/acceder a jQuery
+    - A (selector) para "consultar (o encontrar)" elementos HTML
+    - Una acción jQuery() que se realizará en los elementos
+
+Ejemplos:
+
+$(this).hide() - oculta el elemento actual.
+
+$("p").hide() - Oculta todos los elementos <p>.
+
+$(".test").hide() - oculta todos los elementos con class="test".
+
+$("#test").hide() - oculta el elemento con id="test".
+
+* DOCUMENT READY:
+
+- Es una forma de declarar funciones con JQuery.
+
+- Utiliza la instruccion documento.ready(function), el cual evita que cualquier codigo jquery se ejecute antes de que el documento HTML antes de que se terminen de cargar.
+
+- NOTA: Como buena practica es esperar que el documento este completamente cargado y listo para trabajar con el.
+
+- Ejemmplos de acciones que pueden fallar si los metodos se ejecutan antes de que el documento este completamente cargado:
+
+    - Intentar ocultar un elemento que aun no se ha creado.
+    - Intentar obtener el tamano de una imagen que aun no este cargada.
+
+- De hecho, JQuery ha creado un metodo aun mas corto para crear el evento " Document Ready ":
+
+    $(function()) {
+        //Los metodos JQuery se colocan aqui!!!
+    }
+
+* JQUERY SELECTORS:
+
+- Los selectores jQuery son uno de los de los mas importantes partes de la libreria jQuery.
+
+-  Los selectores jQuery se utilizan para " encontrar " o seleccionar elementos HTML con base a su nombre, id, clase, tipo, atributo, valores, entre otros.
+
+- Todos los selectores con JQuery deben iniciarse con el simbolo $();
+
+- Ejemplo: Para seleccionar todos los elementos <p> de una pagina, se debe colocar la siguiente instruccion: $("p")
+
+- NOTA: Consultar EjercicioJQuery1.html donde se utiliza JQuery para ocultar los elementos <p> de una pagina, esto mediante el metodo " hide() " dentro de un boton.
+
+* THE #ID SELECTOR:
+
+- El selector jQuery utiliza ademas atributos con ID para encontrar un elemento especifico de una pagina HTML.
+
+- Ejemplo: $("#test")
+
+- NOTA: Consultar EjercicioJQuery2.html donde se oculta un elemento con ID de una pagina HTML.
+
+* THE .CLASS SELECTOR:
+
+- Con los selectores JQuery permiten encontrar elementos con una clase en especifico de una pagina web (.class).
+
+- Para encontrar elementos de una clase en especifico se debe escribir de la siguiente forma: $(".test").
+
+- NOTA: Consultar EjercicioJQuery3.html donde se oculta los elementos de una clase especifica de una pagina web.
+
+* JQUERY EVENT METHODS:
+
+- JQuery, mas que nada esta hecho a la medida para responder a eventos de una pagina web.
+
+- Que son eventos?
+
+    - Son aquellas accciones que los usuarios de una pagina web puede realizar.
+
+- Ejemplo de eventos:
+    
+    - Mover el mouse sobre un elementos de una paginas web.
+    - Seleccionar un boton de opcion.
+    - Hacer clic en un elemento de una pagina web.
+
+- NOTA: En jQuery existen termino llamados " fires / fired ", los cuales se utiliza regularmente para implementar eventos, por ejemplo, crear un evento que muestra cuando el usuario hace clic a un boton.
+
+- Existen diferentes tipos de eventos que se pueden realizar con mouse, por ejemplo: click, dbclick, mousecenter, mouseleave.
+
+- Existen diferentes tipos de eventos que se pueden realizar con teclado, por ejemplo: keypress, keydown, keyup.
+
+- Existen diferentes tipos de eventos que se pueden realizar con formularios, por ejemplo: submit, change, focus, blur.
+
+- Existen diferentes tipos de eventos que se pueden realizar con documentos o eventos en la ventana de una pagina web, por ejemplo: load, resize, scroll, unload.
+
+* JQUERY SYNTAX FOR EVENT METHODS:
+
+- En JQuery, para declarar un evento, podemos utilizar la siguiente sintaxis, en este caso, para hacer clic en un parrafo <p>: $("p").click();
+
+- Tambien se pueden crear funciones donde se pueden especificar accciones mas especificas que pueden ocurrir dentro de un evento, por ejemplo:
+
+    $("p").click(function() {
+        //Accion a realizar
+    });
+
+- NOTA: Consultar EjercicioJQuery4.html donde se crear un evento de tipo click() y hide() para ocultar elementos de tipo <p> de una pagina web.
+
+* JQUERY TOOGLE() - (MOSTRAR / OCULTAR) ELEMENTOS:
+
+- Con JQuery podemos a traves de eventos en mostrar y ocultar elementos de una pagina web, esto mediante el metodo " toogle() ".
+
+- NOTA: Consultar EjercicioJQuery5.html donde a traves de un boton permite mostrar y ocultar parrafos <p> de una pagina.
+
+* JQUERY TRAVERSING: (JQUERY ATRAVESADO).
+
+- Que es JQuery atravesado?
+
+    - Significa moverse, es decir, TRAVERSING se utiliza para encontrar elementos HTML con base a la relacion que tenga con otros elementos.
+
+- NOTA: Consultar el siguiente diagrama: https://www.w3schools.com/jquery/img_travtree.png
+
+- NOTA: En el diagrama se nos muestra una pagina HTML, la cual, al utilizar JQuery traversing, nos permite mover facilmente hacia arriba, abajo,
+        y hacia los lados de los elementos que conforman una pagina web.
+
+- En JQuery para atravesar elementos de una pagina web, por ejemplo dentro de un arbol DOM se puede utilizar los siguientes metodos:
+
+    - parent()
+    - parents()
+    - parentUntil()
+
+- METODO PARENT(): Es un metodo que permite devolver el elemento primario directi de cada elemento de una pagina web.
+
+- Consultar EjercicioJQuery6.html, donde se utiliza el metodo " parent() " para mostrar el elemento principal de cada elemento de tipo <span>
+
+* JQUERY CHILDREN() METHOD:
+
+- El metodo " children() " permite retornar a todos los elementos hijos seleccionados.
+
+- NOTA: Este metodo solo atraviesa un unico nivel del arbol DOM.
+
+- Consultar EjercicioJQuery7.html, donde se muestran los elementos hijos de cada elemento <div>
+
+* JQUERY TRAVERSING - SIBLINGS:
+
+- Con JQuery podemos atravesar elementos de forma lateral, esto con base al arbol DOM, con el fin de encontrar elementos hermanos.
+
+- En JQuery cuenta con diferentes metodos que ayudan a atravesar elementos de forma lateral, entre ellos son:
+
+    - siblings()
+    - next()
+    - nextAll()
+    - nextUntil()
+    - prev()
+    - prevAll()
+    - prevUntill()
+
+* METODO siblings():
+
+- Es un metodo que permite devolver todos los elementos del mismo nivel.
+
+- NOTA: Consultar EjercicioJQuery8.html donde nos devuelven todos los elementos del mismo nivel <H2>
+
+- Tambien con el metodo siblings() podemos utilizar un paramtetro como referencia para encontrar el elementos hermano que deseamos utilizar.
+
+- NOTA: Consultar EjercicioJQuery9.html, donde se utiliza el metodo siblings() para devolver a todos los elementos del mismo nivel que son de tipo <H2> y <p>
+
+* METODO NEXT():
+
+- Es un metodo que devuelve el siguiente elemento del mismo nivel de del elementos seleccionado.
+
+- NOTA: Consultar EjercicioJQuery10.html donde al utilizar el metodo " next() " nos devolvera el siguiente elemento del mismo nivel de los elementos <H2>
+
+* JQUERY TRAVERSING - FILTERING:
+
+- Con JQuery existen metodos que nos ayudan a filtrar o seleccionar elementos especificos de una pagina en particular, estos metodos son:
+
+    - first()
+    - last()
+    - eq()
+
+- Ademas, existen otros metodos de filtrado de elementos de una pagina que coiciden, no coinciden, pero con ciertos criterios:
+
+    - filter()
+    - not()
+
+* METODO FIRST():
+
+- Este metodo nos devuelve el primer elemento de una pagina web de todos los especificados.
+
+- NOTA: Consultar EjercicioJQuery11.html, donde al utilizar el metodo first(), nos indica cual de todos los elementos que se encuentran en la pagina web es el primero,
+        en este caso, se marca con un cuadro de color amarillo.
+
+* METODO LAST():
+
+- Este metodo nos devuelve el ultimo elemento de una pagina web de todos los especificados.
+
+- NOTA: Consultar EjercicioJQuery12.html donde se nos muestra el ultimo elementos de todos los especificados.
+
+* METODO EQ():
+
+- Este metodo nos devuelve el elemento con un numero de indice o posicion en especifico.
+
+- Estos numeros iniciar a partir en cero 0
+
+- NOTA: Consultar EjercicioJQuery13.html donde se nos muestra el elemento con la posicion 1.
+
+* METODO FILTER():
+
+- Este metodo nos permite filtrar o seleccionar elementos en particular que deseamos gestionarlos dentro de una pagina web, ya sea mediante ID, por clase o por tipo de elemento.
+
+- NOTA: Consultar EjercicioJQuery14.html donde seleccionamos los elementos de una clase en particular.
+
+* METODO NOT():
+
+- Este metodo es todo lo contrario con todos, es decir, que en este metodo devuelve a aquellos elementos que no coincidan con los criterios o condiciones definidas dentro de una pagina web.
+
+- NOTA: Consultar EjercicioJQuery15.html donde no seleccionamos algunos elementos en particular, esto con base a la definicion de una clase y aplicando el metodo (" .not ").
